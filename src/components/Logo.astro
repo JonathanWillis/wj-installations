@@ -1,0 +1,30 @@
+---
+import { SITE } from 'astrowind:config';
+import Image from '~/components/common/Image.astro';
+
+const {
+  image = { src: '~/assets/images/logo.png', alt: 'AstroWind Hero Image' }
+} = Astro.props;
+---
+
+<span
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
+>
+<div style="display: flex; align-items: center; gap:10px">
+  <Image
+  class="mx-auto rounded-md w-full"
+  widths={[50]}
+  sizes="(max-width: 50px) 50px"
+  loading="eager"
+  width={50}
+  height={50}
+  {...image}
+/>
+  <div>
+    <p>Software</p>
+    <p>Minions</p>
+  </div>
+</div>
+
+  
+</span>
