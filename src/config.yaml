@@ -1,6 +1,6 @@
 site:
-  name: Software Minions
-  site: 'https://www.softwareminions.com'
+  name: WJ Installations
+  site: 'https://www.wjinstallations.co.uk'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: SoftwareMinions
-    template: '%s — SoftwareMinions'
-  description: "Expert Software Solutions Tailored for Your Business Success"
+    default: WJ Installations
+    template: '%s — WJ Installations'
+  description: "All your flooring needs in Stafford"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: SoftwareMinions
+    site_name: WJInstallations
     images:
       - url: '~/assets/images/default.png'
         width: 1200

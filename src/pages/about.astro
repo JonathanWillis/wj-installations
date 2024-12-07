@@ -1,0 +1,63 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Content from '~/components/widgets/Content.astro';
+
+const metadata = {
+  title: 'About us',
+};
+---
+
+<Layout metadata={metadata}>
+  <Content
+    isReversed
+    id="martyn-jenks"
+    columns={3}
+    items={[
+      {
+        icon: 'tabler:buildings',
+        callToAction: {
+          target: '_blank',
+          text: 'Founder',
+          href: '#',
+        },
+      },
+      {
+        icon: 'tabler:pencil',
+        callToAction: {
+          target: '_blank',
+          text: 'Designer',
+          href: '#',
+        },
+      },
+      {
+        icon: 'tabler:ruler',
+        callToAction: {
+          target: '_blank',
+          text: 'Fitter',
+          href: '#',
+        },
+      },
+    ]}
+    image={{
+      src: '~/assets/images/martyn.jpg',
+      alt: 'Martyn Williams-Jenks',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Martyn Williams-Jenks</h2>
+      <p>
+        With years of experience in both residential and commercial projects, I’ve built a reputation for delivering exceptional flooring solutions tailored to each client's unique needs. From laminate to luxury options like Karndean and Amtico, I take pride in providing high-quality craftsmanship that enhances the beauty and functionality of any space. Whether you’re looking to transform a single room or an entire property, my attention to detail and commitment to customer satisfaction ensure a seamless and professional finish every time.
+      </p>
+      <br />
+      <p>
+        In addition to my expertise in flooring, I’m also a trained electrician, offering a versatile skill set that allows me to handle complex installations with ease. This dual proficiency means I can manage projects that require electrical adjustments alongside flooring work, saving you time and ensuring every aspect of your project is completed to the highest standard. Dedicated to delivering reliable, efficient, and top-notch service, I’m here to help bring your vision to life.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+</Layout>

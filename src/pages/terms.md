@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 **Last Updated: 19 November 2024**
 
-Welcome to **Software Minions**. By accessing or using our website, services, or products, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
+Welcome to **WJ Installations**. By accessing or using our website, services, or products, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
 
 ---
 
 ## **1. Definitions**
-1.1 "We," "Us," or "Our" refers to **Software Minions**, a business registered in the UK under company number [Insert Number].  
+1.1 "We," "Us," or "Our" refers to **WJ Installations**, a business registered in the UK under company number [Insert Number].  
 1.2 "You" or "Your" refers to any individual or entity using our services, website, or products.  
-1.3 "Services" refers to the products or services provided by **Software Minions**.
+1.3 "Services" refers to the products or services provided by **WJ Installations**.
 
 ---
 
@@ -49,7 +49,7 @@ Welcome to **Software Minions**. By accessing or using our website, services, or
 ---
 
 ## **7. Intellectual Property**
-7.1 All content on this website, including text, images, and logos, is the property of **Software Minions** or its licensors.  
+7.1 All content on this website, including text, images, and logos, is the property of **WJ Installations** or its licensors.  
 7.2 You may not reproduce, distribute, or exploit any part of our content without prior written permission.  
 
 ---
@@ -97,4 +97,4 @@ Welcome to **Software Minions**. By accessing or using our website, services, or
 
 If you have any questions about these Terms and Conditions, You can contact us:
 
-- By email: terms@softwareminions.com
+- By email: terms@wjinstallations.com

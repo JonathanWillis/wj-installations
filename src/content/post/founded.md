@@ -1,13 +1,13 @@
 ---
-publishDate: 2015-03-15T00:00:00Z
-author: Jonathan Willis
+publishDate: 2008-03-15T00:00:00Z
+author: Martyn Williams-Jenks
 title: Company Founded
-excerpt: A star is born
-image: ~/assets/images/blog/founded.webp
+excerpt: Perfect Flooring
+image: ~/assets/images/blog/founded/image.jpg
 tags:
   - Business
 metadata:
   canonical: https://www.microsoft.co.uk
 ---
 
-At Software Minions, innovation drives everything we do. So we have rebuilt our website to be fast.
+WJ Installations is founded

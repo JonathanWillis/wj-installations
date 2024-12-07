@@ -1,13 +1,13 @@
 ---
-publishDate: 2024-11-19T00:00:00Z
-author: Jonathan Willis
+publishDate: 2024-12-25T00:00:00Z
+author: Martyn Williams-Jenks
 title: New Website
-excerpt: Rebuilt with the latest tech
-image: ~/assets/images/blog/new-website.png
+excerpt: Who said I didn't need a website
+image: ~/assets/images/blog/new-website/image.png
 tags:
   - Business
 metadata:
   canonical: https://www.microsoft.co.uk
 ---
 
-At Software Minions, innovation drives everything we do. So we have rebuilt our website to be fast.
+We now have a website, find all our latest projects here.

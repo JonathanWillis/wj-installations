@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Software Minions',
+  title: 'WJ Installations',
   ignoreTitleTemplate: true,
 };
 ---
@@ -32,17 +32,11 @@ const metadata = {
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image2.png', alt: 'Hero Image' }}
+    image={{ src: '~/assets/images/hero-image.jpg', alt: 'Hero Image' }}
   >
     <Fragment slot="title">
-      Expert Software Solutions
-      <span class="text-accent dark:text-white highlight"> Tailored</span> for Your Business Success
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-         Partner with <span class="font-semibold">Software Minions</span> to unlock innovative, efficient, and scalable software solutions. We specialize in understanding your unique challenges and delivering tailored technologies that drive growth and streamline operations.</span>
-         <span class="block mb-1 font-bold text-blue-600">Let’s transform your ideas into impactful results</span>
+      Let
+      <span class="text-accent dark:text-white highlight"> WJ Installations</span> fit your amazing floor
     </Fragment>
   </Hero>
 
@@ -55,246 +49,103 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="What you get with Software Minions"
-    subtitle="One of the most professional software consultancy firms today."
+    title="What you get with WJ Installations"
+    subtitle="Experienced floor fitting in Stafford."
     items={[
       {
-        title: 'Tailored software solutions',
+        title: 'Professional Installation',
         description:
-          'Every business is unique, and so are its challenges. Our tailored software solutions are designed specifically to meet your needs, ensuring seamless integration, optimized performance, and maximum impact for your operations. From concept to deployment, we deliver technology that works for you',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Fast project delivery',
-        description:
-          'We understand the importance of time in achieving your goals. Our streamlined processes and agile approach ensure your projects are delivered quickly without compromising on quality, keeping you ahead of the competition',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Our expertise is built on industry-leading best practices, ensuring your software is secure, efficient, and future-ready. By leveraging proven methodologies, we deliver solutions that meet the highest standards of quality and reliability',
+          'With years of experience, we provide precise and professional laminate floor installation to enhance the beauty and durability of your space.',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Cost-effective strategies',
+        title: 'Tailored to Your Needs',
         description:
-          'Maximize your ROI with our cost-effective strategies. We focus on delivering high-quality solutions that align with your budget, helping you achieve your goals without unnecessary expenses',
+          'Every home is unique. We work closely with you to select the perfect laminate flooring that matches your style, budget, and lifestyle',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Fast and Reliable Service',
+        description:
+          'We pride ourselves on punctuality and efficiency, completing projects on time without compromising on quality',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Transparent Pricing',
+        description:
+          'No hidden costs. We provide clear, upfront quotes, so you know exactly what to expect from start to finish',
         icon: 'tabler:currency-pound',
       },
       {
-        title: 'Scalable system designs',
+        title: 'Aftercare Support',
         description:
-          "Our scalable system designs grow with your business. Whether you're expanding, integrating new technologies, or handling increased demand, our solutions ensure your operations remain seamless and future-proof",
+          "Your satisfaction matters. We offer tips on maintenance and are available to answer any questions even after the job is done",
         icon: 'tabler:chart-arrows-vertical',
       },
       {
-        title: 'Open to new ideas and technologies',
+        title: 'Quality Materials',
         description:
-          'We thrive on innovation and embrace new ideas and technologies to deliver cutting-edge solutions. By staying adaptable and forward-thinking, we help your business stay competitive in an ever-evolving landscape',
-        icon: 'tabler:bulb',
+          'We source high-quality laminate flooring that is built to last, ensuring your investment adds long-term value to your home',
+        icon: 'tabler:components',
       },
     ]}
   />
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    tagline="Inside view"
-    title="Software Minions Blueprint: Functionality meet Success!"
-    items={[
-      {
-        title: 'TODO',
-        description:
-          'todo.',
-      },
-      {
-        title: 'TODO',
-        description:
-          'todo.',
-      },
-      {
-        title: 'TODO',
-        description:
-          'todo.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'TODO',
-        description: `todo.`,
-      },
-      {
-        title: 'TODO',
-        description:
-          'todo.',
-      },
-      {
-        title: 'TODO',
-        description:
-          "todo.",
-      },
-      {
-        title: 'TODO',
-        description:
-          'todo.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
-    }}
-  >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'TODO',
-        description:
-          'todo.',
-      },
-      {
-        title: 'TODO',
-        description:
-          'todo.',
-      },
-      {
-        title: 'TODO',
-        description:
-          'todo.',
-      },
-      {
-        title: 'TODO',
-        description: `todo.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
-    }}
-  >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream project completed with Software Minions."
+    title="Get your dream project completed with us."
     items={[
       {
         title: 'Step 1: <span class="font-medium">Contact Us</span>',
         description:
-          "Kickstart your project by contacting us to get a consultation",
-        icon: 'tabler:package',
+          "Kickstart your project with a free consultation",
+        icon: 'tabler:phone',
       },
       {
         title: 'Step 2: <span class="font-medium">Build</span>',
         description:
-          "Design and build a solution.",
+          "Design your perfect floor.",
         icon: 'tabler:code',
       },
       {
         title: 'Step 3: <span class="font-medium">Delivery</span>',
         description:
-          'Release into production.',
+          'Install into your house.',
         icon: 'tabler:package',
       },
       {
-        title: 'Ready!',
+        title: 'Enjoy!',
         icon: 'tabler:check',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      src: '~/assets/images/side-image.jpg',
+      alt: 'Floor image',
     }}
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used Technologies"
-    subtitle="SOme of our most frequently used components for building software solutions"
+    title="Most used Products"
+    subtitle="Some of our most frequently used products for flooring solutions"
     tagline="Components"
     items={[
       {
-        title: 'C#',
-        description: "TODO.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'SQL',
-        description: "TODO.",
+        title: 'Karndean',
+        description: "Karndean flooring offers the perfect blend of luxury, durability, and style. Known for its realistic wood and stone designs, Karndean flooring combines elegance with practical benefits like water resistance, easy maintenance, and exceptional durability. Whether you're updating a single room or transforming your entire home, Karndean flooring delivers high-quality results that stand the test of time. Perfect for busy households and commercial spaces alike, it’s a versatile choice to suit any lifestyle.",
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'HTML/CSS',
-        description: "TODO.",
-        icon: 'flat-color-icons:approval',
+        title: 'Amtico',
+        description: "Amtico flooring is synonymous with premium quality and innovative design. Renowned for its stunning range of luxury vinyl tiles, Amtico offers endless possibilities to create beautiful, durable floors that perfectly match your style. With exceptional resistance to wear and tear, Amtico flooring is ideal for both residential and commercial spaces, providing a practical yet elegant solution. Easy to maintain and designed to last, Amtico flooring is the ultimate choice for those seeking sophistication and performance in every step",
+        icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'AWS',
-        description: "TODO.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Cloudflare',
-        description: "TODO.",
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Azure',
-        description: "TODO.",
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Javascript & Typescript',
-        description: "TODO.",
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'React',
-        description: "TODO.",
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Go',
-        description: "TODO.",
-        icon: 'flat-color-icons:database',
+        title: 'Laminate',
+        description: "Laminate flooring is a stylish, versatile, and cost-effective option for any home or business. With a wide range of designs that mimic natural wood and stone, laminate flooring offers the perfect balance of aesthetics and practicality. Durable, scratch-resistant, and easy to maintain, it’s ideal for high-traffic areas and busy households. Whether you're updating one room or your entire property, laminate flooring provides a beautiful, hard-wearing solution at an affordable price.",
+        icon: 'flat-color-icons:gallery',
       },
     ]}
   >
@@ -317,34 +168,34 @@ const metadata = {
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Why us?',
+        title: 'How long does it take to fit laminate flooring?',
         description:
-          "Our primary focus is on delivering tangible business value and maximizing your return on investment. Rather than chasing the latest trends or technology stacks, we prioritize understanding and addressing your unique business needs. We believe that successful solutions are built on a strong foundation of relevance and practicality, ensuring that every decision we make is aligned with achieving your goals",
+          "The time required depends on the size and complexity of the area. On average, a standard-sized room can be completed in a day. Larger or more intricate spaces, such as those with angled walls or multiple rooms, may take longer.",
       },
       {
-        title: 'What industries do you work with?',
+        title: 'Do I need to prepare the area before you start?',
         description:
-          'We have experience working with clients in industries such as finance, gambling, manufacturing, AIDC (Barcode, RFID), geospatial, providing solutions tailored to each sectors needs.',
+          'Yes, we recommend clearing the space of furniture and personal items before we arrive. If you need assistance, let us know in advance, and we can discuss how to help. We’ll also check that the subfloor is clean, level, and ready for installation.',
       },
       {
-        title: 'Do you follow Agile or Waterfall methodology?',
+        title: 'Can you remove and dispose of old flooring?',
         description:
-          "We typically use Agile methodology to deliver iterative improvements and continuous feedback, but we can adjust to your preferred approach depending on your project's scope and needs.",
+          'Absolutely. We offer old flooring removal and disposal services as part of our work. Just let us know beforehand, and we’ll include this in your quote.',
       },
       {
-        title: "How do you ensure the quality of the software?",
+        title: 'What types of flooring do you install?',
         description:
-          "We implement robust testing practices, including unit tests, integration tests, and acceptance testing, to ensure the software meets both functional and performance standards.",
+          'We specialize in installing laminate, Karndean, Amtico, and other luxury vinyl tiles (LVT). Whether it’s for residential or commercial spaces, we can help you choose and install the perfect flooring solution.',
       },
       {
-        title: 'Who will manage my project?',
+        title: 'Is laminate flooring suitable for kitchens and bathrooms?',
         description:
-          "Each project is assigned a dedicated project manager who will serve as your main point of contact and ensure the project stays on track.",
+          'Yes, modern laminate flooring is designed to be water-resistant and durable, making it suitable for kitchens. However, for bathrooms or areas with high moisture, we recommend discussing other options, like luxury vinyl, for the best results.',
       },
       {
-        title: 'Do you offer free consultations?',
+        title: 'Do you offer a warranty or guarantee for your work?',
         description:
-          "Yes, we offer a free initial consultation to understand your needs and discuss potential solutions.",
+          'Yes, all of our installations come with a workmanship guarantee. The length of the warranty depends on the type of flooring installed and will be discussed during the consultation.',
       },
     ]}
   />
@@ -353,8 +204,8 @@ const metadata = {
 
   <Stats
     stats={[
-      { title: 'Founded', amount: '2015' },
-      { title: 'Projects Delivered', amount: '30+' },
+      { title: 'Founded', amount: '2008' },
+      { title: 'Floors fitted', amount: '100+' },
     ]}
   />
 
@@ -372,11 +223,8 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      <span class="sm:whitespace-nowrap">Software Minions</span>
+      <span class="sm:whitespace-nowrap">WJ Installations</span>
     </Fragment>
 
-    <Fragment slot="subtitle">
-      Starting a successful IT transformation
-    </Fragment>
   </CallToAction>
 </Layout>
