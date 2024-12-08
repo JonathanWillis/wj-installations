@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
@@ -14,7 +13,7 @@ const metadata = {
 
   <HeroText tagline="Contact" title="" />
 
-  <ContactUs
+  <!--<ContactUs
     id="form"
     title="Drop us a message today!"
     inputs={[
@@ -37,7 +36,7 @@ const metadata = {
         'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
     }}
     description="Our support team typically responds within 24 business hours."
-  />
+  /> -->
 
   <!-- Features2 Widget ************** -->
 
@@ -45,8 +44,13 @@ const metadata = {
     title="We are here to help!"
     items={[
       {
+        title: 'Phone',
+        description: '07583 100415',
+        icon: 'tabler:phone',
+      },
+      {
         title: 'Email',
-        description: 'contact@wjinstallations.co.uk',
+        description: 'wjinstallation@gmail.com',
         icon: 'tabler:mail',
       },
       {

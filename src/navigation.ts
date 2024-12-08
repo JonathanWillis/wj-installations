@@ -28,6 +28,7 @@ export const footerData = {
       title: 'Company',
       links: [
         { text: 'About', href: getPermalink('/about') },
+        { text: 'Contact', href: getPermalink('/contact') },
       ],
     },
   ],
@@ -39,6 +40,7 @@ export const footerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/people/WJ-installations/100064687642066/' },
   ],
   footNote: `
+    Tel: 07583 100415 </br>
     WJ Installations (Stafford)</br>
     Website by Software Minions Limited.
   `,

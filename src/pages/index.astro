@@ -6,7 +6,6 @@ import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
@@ -50,7 +49,7 @@ const metadata = {
     id="features"
     tagline="Features"
     title="What you get with WJ Installations"
-    subtitle="Experienced floor fitting in Stafford."
+    subtitle="Experienced laminate flooring services and electrical installations in Stafford."
     items={[
       {
         title: 'Professional Installation',
@@ -143,8 +142,23 @@ const metadata = {
         icon: 'flat-color-icons:gallery',
       },
       {
+        title: 'Quick-Step',
+        description: "Quick-Step flooring is a top choice for those seeking style, durability, and innovation. Renowned for its stunning laminate and luxury vinyl collections, Quick-Step offers a wide variety of designs to complement any home or commercial space. With advanced features like scratch resistance and water-resistant technology, it’s built to withstand the demands of everyday life. Easy to install and maintain, Quick-Step flooring is the perfect blend of practicality and elegance, ensuring a flawless finish that lasts for years to come.",
+        icon: 'flat-color-icons:gallery',
+      },
+      {
         title: 'Laminate',
         description: "Laminate flooring is a stylish, versatile, and cost-effective option for any home or business. With a wide range of designs that mimic natural wood and stone, laminate flooring offers the perfect balance of aesthetics and practicality. Durable, scratch-resistant, and easy to maintain, it’s ideal for high-traffic areas and busy households. Whether you're updating one room or your entire property, laminate flooring provides a beautiful, hard-wearing solution at an affordable price.",
+        icon: 'flat-color-icons:gallery',
+      },
+      {
+        title: 'Vinyl',
+        description: "Vinyl flooring is a versatile and cost-effective option that combines style, durability, and comfort underfoot. Available in a wide range of designs, from realistic wood and stone effects to bold modern patterns, vinyl flooring is perfect for any space in your home or business. Its water-resistant properties make it an excellent choice for kitchens, bathrooms, and high-traffic areas. Easy to clean and maintain, vinyl flooring delivers long-lasting performance while adding a touch of elegance to your interiors.",
+        icon: 'flat-color-icons:gallery',
+      },
+      {
+        title: 'Engineered Wood',
+        description: "Engineered wood flooring offers the timeless beauty of real wood with enhanced durability and stability. Crafted from layers of high-quality materials topped with a genuine hardwood veneer, it provides the authentic look and feel of solid wood while being more resistant to changes in temperature and humidity. Perfect for both traditional and modern interiors, engineered wood flooring combines luxury and practicality, making it a stylish and long-lasting choice for any home or commercial space..",
         icon: 'flat-color-icons:gallery',
       },
     ]}
@@ -183,6 +197,11 @@ const metadata = {
           'Absolutely. We offer old flooring removal and disposal services as part of our work. Just let us know beforehand, and we’ll include this in your quote.',
       },
       {
+        title: 'Which areas do you cover?',
+        description:
+          'We are based in Stafford, Staffordshire, and provide installation services locally and across the UK. National availability depends on the size and scope of the project, so please get in touch to discuss your requirements',
+      },
+      {
         title: 'What types of flooring do you install?',
         description:
           'We specialize in installing laminate, Karndean, Amtico, and other luxury vinyl tiles (LVT). Whether it’s for residential or commercial spaces, we can help you choose and install the perfect flooring solution.',
@@ -218,7 +237,7 @@ const metadata = {
         text: 'Let us help',
         href: 'contact',
         target: '_blank',
-        icon: 'tabler:hand-finger',
+        icon: 'tabler:phone',
       },
     ]}
   >
