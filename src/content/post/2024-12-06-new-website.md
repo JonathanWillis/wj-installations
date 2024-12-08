@@ -1,8 +1,8 @@
 ---
 publishDate: 2024-12-06T00:00:00Z
 author: Martyn Williams-Jenks
-title: New Website
-excerpt: Who said I didn't need a website
+title: We got a Website
+excerpt: Going online!
 image: ~/assets/images/blog/new-website/image.png
 tags:
   - Business
